@@ -139,7 +139,6 @@ async function handleCommand(command) {
        */
       console.log('Loading data...')
       // --------> WRITE YOUR CODE BELOW
-      console.log('Loading data...')
       const [loadFileName] = args;
       await studentManagementSystem.loadFromJSON(loadFileName);
       console.log('Data loaded successfully');
@@ -157,7 +156,6 @@ async function handleCommand(command) {
        */
       console.log('Clearing data...')
       // --------> WRITE YOUR CODE BELOW
-      console.log('Clearing data...')
       studentManagementSystem.clearStudents();
       console.log('All data cleared');
       console.log('Current list:', studentManagementSystem.displayStudents());
